@@ -1,36 +1,51 @@
-p {
-    color: green;
+span.italic {
+    font-style: italic;
 }
 
-h2 + p {
-    color: orange;
+/*
+span {
+    color: red;
 }
+ */
 
-.blue {
-    color: blue;
-}
-
-#red {
+span.red {
     color: red;
 }
 
-.left {
-    background-color: aqua;
+#darkmagenta {
+    color: darkmagenta;
 }
 
-.right {
-    background-color: burlywood;
+span.blue {
+    color: blue;
 }
 
-.left, .right {
-    float: left;
-    width: 50%;
+span.code {
+    font-family: "Courier New", Courier, monospace;
 }
 
-.all {
-    width: 100%;
+#green, #also_green {
+    color: green;
 }
 
-.all:after {
-    clear: both;
+ul.parent span {
+    color: olive;
+}
+
+li.parent > span {
+    color: darkgoldenrod;
+}
+
+/*
+h2 + p {
+    color: darkmagenta;
+}
+*/
+
+li.parent + li span {
+    color: darkcyan;
+}
+
+a.cool_ref {
+    display: block;
 }
