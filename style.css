@@ -1,3 +1,7 @@
+h1 {
+    margin-left: 10%;
+}
+
 span.italic {
     font-style: italic;
 }
@@ -56,4 +60,12 @@ a:visited {
 
 h2:hover {
     color: darkslategrey;
+}
+
+#selectors {
+    width: 80%;
+    margin: auto;
+    border: green solid;
+    padding: 8px 16px;
+    box-sizing: border-box;
 }
