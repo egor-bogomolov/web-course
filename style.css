@@ -49,3 +49,11 @@ li.parent + li span {
 a.cool_ref {
     display: block;
 }
+
+a:visited {
+    color: olive;
+}
+
+h2:hover {
+    color: darkslategrey;
+}
