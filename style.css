@@ -1,0 +1,36 @@
+p {
+    color: green;
+}
+
+h2 + p {
+    color: orange;
+}
+
+.blue {
+    color: blue;
+}
+
+#red {
+    color: red;
+}
+
+.left {
+    background-color: aqua;
+}
+
+.right {
+    background-color: burlywood;
+}
+
+.left, .right {
+    float: left;
+    width: 50%;
+}
+
+.all {
+    width: 100%;
+}
+
+.all:after {
+    clear: both;
+}
