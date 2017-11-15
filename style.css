@@ -99,10 +99,48 @@ div.tile {
     width: 20%;
 }
 
-div.hidden {
+div.hidden_block {
     display: none;
 }
 
-div.tile:hover + div.hidden, div.hidden:hover {
+div.tile:hover div.hidden_block, div.hidden_block:hover {
     display: block;
+    width: auto;
+}
+
+div.overflow_block {
+    float: left;
+    background-color: #eee;
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow: visible;
+    margin: 10px;
+}
+
+div.hidden {
+    overflow: hidden;
+}
+
+div.visible {
+    overflow: visible;
+}
+
+div.auto {
+    overflow: auto;
+}
+
+div.scroll {
+    overflow: scroll;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+div.absolute {
+    position: absolute;
+    bottom: 100%;
 }

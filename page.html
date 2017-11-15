@@ -126,8 +126,28 @@
     <h2>
         Отображение, позиционирование
     </h2>
-    <div class="tile">Наведи на меня</div>
-    <div class="tile hidden">Спрятанный текст</div>
+
+    <p> То, что происходит с тегом, когда его содержимое начинает превышать его размер, задается параметром
+        <span class="code">overflow</span>. Разберем несколько примеров: </p>
+
+    <div class="hidden overflow_block">Если задано значение <span class="code">hidden</span>, то не поместившееся
+        содержимое будет убрано. Вот это самое не поместившееся содержимое </div>
+
+    <div class="visible overflow_block">Если задано значение <span class="code">visible</span>, то не поместившееся
+        содержимое будет показано.  Вот это самое не поместившееся содержимое</div>
+
+    <div class="scroll overflow_block">Если задано значение <span class="code">scroll</span>, то будут добавлены полосы
+        прокрутки по обоим измерениям. Сделаем текст немножко длиннее, чтобы увидеть их использование. </div>
+
+    <div class="auto overflow_block">Если задано значение <span class="code">auto</span>, то в случае надобности будут
+        добавлены полосы прокрутки по соответствующим измерениям. </div>
+
+    <div class="clear"></div>
+
+    <div class="tile fixed">
+        Наведи на меня
+        <div class="tile hidden_block absolute">Спрятанный текст</div>
+    </div>
 
     <p> Теги не обязаны всегда быть строчными или блочными. Переопределяя свойство <span class="code">display</span> можно
         сделать блочные гиперссылки или строчные элементы списка, что позволяет делать горизонтальные меню. Задавая
@@ -137,10 +157,9 @@
 
 <h3>Полезные ссылки</h3>
 <a class="cool_ref" href="https://www.w3schools.com/tags/default.asp">HTML</a>
+<a class="cool_ref" href="http://htmlbook.ru/">HTML на русском</a>
 <a class="cool_ref" href="https://www.w3schools.com/cssref/default.asp">CSS</a>
 <a class="cool_ref" href="https://www.w3schools.com/cssref/css_selectors.asp">Селекторы</a>
-<a class="cool_ref" href="#simple_selectors">Простые селекторы</a>
-<a class="cool_ref" href="#complex_selectors">Сложные селекторы</a>
 
 </body>
 </html>
