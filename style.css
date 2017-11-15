@@ -71,15 +71,13 @@ div.chapter {
 }
 
 img.half_width {
-    width: 50%;
+    max-width: 50%;
+    min-width: 300px;
     float: left;
-    margin: 10px;
+    margin: 0 10px;
+    display: block;
 }
 
-div.text_with_img {
-    overflow: auto;
-}
-
-div.text_with_img::after {
+.clear {
     clear: both;
 }
