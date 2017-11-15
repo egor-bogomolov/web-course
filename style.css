@@ -59,7 +59,7 @@ a:visited {
 }
 
 h2:hover {
-    color: darkslategrey;
+    color: dimgrey;
 }
 
 div.chapter {
@@ -78,6 +78,31 @@ img.half_width {
     display: block;
 }
 
+img.fixed_width {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    display: block;
+}
+
 .clear {
     clear: both;
+}
+
+div.tile {
+    background-color: darkcyan;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    margin: 8px auto;
+    width: 20%;
+}
+
+div.hidden {
+    display: none;
+}
+
+div.tile:hover + div.hidden, div.hidden:hover {
+    display: block;
 }
