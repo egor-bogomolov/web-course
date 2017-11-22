@@ -7,6 +7,7 @@
 
 **Полезные свойства** (список будет пополняться):
 * color: red --- цвет текста
+* background-color: red --- цвет фона
 * font-family: monospace/sans-serif/serif --- шрифт
 * font-style: italic --- стиль шрифта, курсив
 * text-align: center/left/right --- выравнивание текста
@@ -19,3 +20,4 @@
 * display: block/inline --- выбор между блочным и строчным типом тега
 * float: left/right --- выплывание налево или направо
 * clear: both --- обязательно после блока элементов с заданным float, чтобы провести после них невидимую границу
+* position: relative/fixed/absolute --- задать позиционирование тега на странице. У всех по умолчанию static.
