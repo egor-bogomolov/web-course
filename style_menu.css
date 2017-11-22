@@ -30,12 +30,12 @@
 .menu li {
     padding: 8px;
     margin-bottom: 8px;
-    background-color: #33b5e5;
-    color: #ffffff;
+    background-color: green;
+    color: white;
 }
 
 .menu li:hover {
-    background-color: #0099cc;
+    background-color: yellowgreen;
 }
 
 .clear {
