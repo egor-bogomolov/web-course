@@ -14,7 +14,7 @@ body {
     padding: 8px;
 }
 
-#customers tr:nth-child(even){
+#customers tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
@@ -32,8 +32,8 @@ body {
 
 /* Навигация */
 .anchor {
-    position:absolute;
-    top:-50px;
+    position: absolute;
+    top: -50px;
 }
 
 .first {
