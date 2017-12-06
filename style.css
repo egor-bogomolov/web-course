@@ -1,3 +1,45 @@
+body {
+    margin: 0;
+}
+
+.anchor {
+    position:absolute;
+    top:-50px;
+}
+
+ul.top_menu {
+    z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul.top_menu li {
+    float: left;
+}
+
+ul.top_menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 20px;
+}
+
+ul.top_menu li a:hover {
+    background-color: #4CAF50;
+}
+
+.first {
+    margin-top: 65px;
+}
+
 h1 {
     margin-left: 10%;
 }
@@ -63,6 +105,7 @@ h2:hover {
 }
 
 div.chapter {
+    position: relative;
     width: 80%;
     margin: 10px auto;
     border: green solid;
