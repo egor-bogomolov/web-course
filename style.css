@@ -2,11 +2,45 @@ body {
     margin: 0;
 }
 
+/* Таблицы */
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Навигация */
 .anchor {
     position:absolute;
     top:-50px;
 }
 
+.first {
+    margin-top: 65px;
+}
+
+/* Верхнее меню */
 ul.top_menu {
     z-index: 1;
     list-style-type: none;
@@ -40,6 +74,7 @@ ul.top_menu li a.nav_ref:hover {
     background-color: #4CAF50;
 }
 
+/* Выпадающий список ссылок */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -68,10 +103,7 @@ ul.top_menu li a.nav_ref:hover {
     display: block;
 }
 
-.first {
-    margin-top: 65px;
-}
-
+/* Старое */
 h1 {
     margin-left: 10%;
 }
@@ -210,27 +242,4 @@ div.fixed {
 div.absolute {
     position: absolute;
     bottom: 100%;
-}
-
-#customers {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-#customers td, #customers th {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-#customers tr:nth-child(even){background-color: #f2f2f2;}
-
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #4CAF50;
-    color: white;
 }
