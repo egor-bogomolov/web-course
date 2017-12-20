@@ -1,0 +1,10 @@
+img.noFloating {
+    max-width: 50%;
+    min-width: 300px;
+    margin: 10px;
+    display: none;
+}
+
+.blockInput {
+    display: block;
+}
