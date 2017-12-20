@@ -9,5 +9,8 @@ function changePicture() {
 }
 
 function calcSum() {
-
+    var first = parseInt(document.getElementById("first").value);
+    var second = parseInt(document.getElementById("second").value);
+    var sum = first + second;
+    document.getElementById("sum").innerText = sum.toString();
 }
