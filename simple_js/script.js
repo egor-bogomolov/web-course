@@ -1,16 +1,16 @@
-function changePicture() {
-    console.log(document.getElementById("demoPicture").style.display);
-    var display = document.getElementById("demoPicture").style.display;
-    if (display == "block") {
-        document.getElementById("demoPicture").style.display = "none";
-    } else {
-        document.getElementById("demoPicture").style.display = "block";
-    }
-}
+"use strict";
 
-function calcSum() {
-    var first = parseInt(document.getElementById("first").value);
-    var second = parseInt(document.getElementById("second").value);
-    var sum = first + second;
-    document.getElementById("sum").innerText = sum.toString();
+function raiseToPower() {
+    var number = Number(prompt("Число, которое хотите возвести в степень", "1"));
+    var power = Number(prompt("Степень", "1"));
+    var result = 1;
+    for(var i = 0; i < power; i++) {
+        result *= number;
+    }
+    alert(result);
+    if (result < 1000) {
+        alert("Результат не очень");
+    } else {
+        alert("Результат очень даже");
+    }
 }
