@@ -2,6 +2,7 @@
 
 /**
  * Во всех заданиях нужно дописать код, чтобы он заработал.
+ * Для этого надо вместо всех многоточий что-нибудь написать.
  * Читайте подсказки и переходите по ссылкам.
  * Пожалуйста, протестируйте то, что получилось.
  */
@@ -12,8 +13,8 @@
  * Не забудьте, что prompt принимает 2 аргумента: подсказку для пользователя и пример ввода.
  */
 function readAndWrite() {
-    var input = prompt("Введите что-нибудь:", "");
-    alert("Ты ввёл: " + input);
+    var input = prompt(...);
+    alert(...);
 }
 
 /**
@@ -22,8 +23,8 @@ function readAndWrite() {
  * Не забудьте, что prompt возвращает не число, а строчку, а вам нужно именно число.
  */
 function multiplyBy13() {
-    var input = prompt("Введите число:", "0");
-    alert(13 * Number(input));
+    var input = prompt(...);
+    alert(...);
 }
 
 /**
@@ -31,8 +32,8 @@ function multiplyBy13() {
  * Пользователь снова должен ввести число, а вы выводите его в квадрате.
  */
 function square() {
-    var number = Number(prompt("Введите число:", "0"));
-    alert(number * number);
+    var number = ...;
+    alert(...);
 }
 
 /**
@@ -40,9 +41,9 @@ function square() {
  * Попросите пользователя ввести число, большее 100. Если он это сделал, то напишите, что он молодец.
  */
 function bigNumber() {
-    var number = Number(prompt("Введите число, большее 100:", "33"));
-    if (number > 100) {
-        alert("Поздравляю, вы справились!");
+    var number = ...;
+    if (...) {
+        ...
     }
 }
 
@@ -51,11 +52,11 @@ function bigNumber() {
  * То же самое, что и раньше, но если пользователь не справился, то поругайте.
  */
 function bigOrSmallNumber() {
-    var number = Number(prompt("Введите число, большее 100:", "33"));
-    if (number > 100) {
-        alert("Поздравляю, вы справились!");
+    var number = ...
+    if (...) {
+        ...
     } else {
-        alert("Это число не больше 100 :(");
+        ...
     }
 }
 
@@ -72,13 +73,13 @@ function bigOrSmallNumber() {
  * https://www.w3schools.com/jsref/jsref_isnan.asp
  */
 function bigNumberAndStringHandling() {
-    var number = Number(prompt("Введите число, большее 100:", "33"));
-    if (isNaN(number)) {
-        alert("Вы ввели не число!");
-    } else if (number > 100) {
-        alert("Поздравляю, вы справились!");
+    var number = ...
+    if (...) {
+        ...
+    } else if (...) {
+        ...
     } else {
-        alert("Это число не больше 100 :(");
+        ...
     }
 }
 
@@ -88,15 +89,11 @@ function bigNumberAndStringHandling() {
  * while, который повторяется, пока пользователь не введет число (смотрите про NaN в предыдущем задании).
  */
 function bigNumberAndWhile() {
-    var number = Number(prompt("Введите число, большее 100:", "33"));
-    while(isNaN(number)) {
-        number = Number(prompt("Вы ввели не число!", "33"));
+    var number = ...
+    while(...) {
+        number = ...
     }
-    if (number > 100) {
-        alert("Поздравляю, вы справились!");
-    } else {
-        alert("Это число не больше 100 :(");
-    }
+    ...
 }
 
 /**
@@ -109,8 +106,8 @@ function bigNumberAndWhile() {
  * https://www.w3schools.com/jsref/jsref_length_array.asp
  */
 function countWords() {
-    var text = prompt("Введите предложение:", "Мама мыла раму");
-    alert(text.split(" ").length);
+    var text = ...
+    alert(...);
 }
 
 var numbers;
@@ -123,11 +120,11 @@ var numbers;
  * этом пользователю.
  */
 function enterNumbers() {
-    numbers = prompt("Введите числа через пробел:", "1 2 3").split(" ");
-    for (var i = 0; i < numbers.length; i++) {
-        numbers[i] = Number(numbers[i]);
-        if (isNaN(numbers[i])) {
-            alert("Вы ввели не число!");
+    numbers = ...
+    for (var i = 0; ...; i++) {
+        numbers[i] = ...
+        if (...) {
+            ...
         }
     }
 }
@@ -138,12 +135,12 @@ function enterNumbers() {
  * Пользователь вводит номер элемента, который хочет увидеть, вы выводите этот элемент.
  */
 function outputNumbers() {
-    alert(numbers);
+    alert(...);
 }
 
 function outputNumberById() {
-    var i = Number(prompt("Введите номер числа в массиве:", "0"));
-    alert(numbers[i]);
+    var i = ...
+    alert(...);
 }
 
 /**
@@ -154,19 +151,19 @@ function outputNumberById() {
  * задания 4.3!
  */
 function addToAllNumbers() {
-    var num = Number(prompt("Введите число, которое нужно добавить ко всем числам в массиве:", "0"));
-    for (var i = 0; i < numbers.length; i++) {
-        numbers[i] += num;
+    var num = ...
+    for (...) {
+        ...
     }
     outputNumbers();
 }
 
 function divideAllNumbers() {
-    var num = Number(prompt("Введите число, на которое нужно поделитьвсе числа в массиве:", "0"));
-    for (var i = 0; i < numbers.length; i++) {
-        numbers[i] /= num;
+    var num = ...
+    for (...) {
+        ...
     }
-    outputNumbers();
+    ...
 }
 
 /**
@@ -175,10 +172,10 @@ function divideAllNumbers() {
  */
 function sumOfNumbers() {
     var sum = 0;
-    for (var i = 0; i < numbers.length; i++) {
-        sum += numbers[i];
+    for (...) {
+        sum += ...
     }
-    alert(sum);
+    alert(...);
 }
 
 /**
