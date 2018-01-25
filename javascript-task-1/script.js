@@ -2,9 +2,23 @@
 
 /**
  * Во всех заданиях нужно дописать код, чтобы он заработал.
- * Для этого надо вместо всех многоточий что-нибудь написать.
+ * Для этого надо вместо всех многоточий написать что-нибудь правильное и убрать // в начале строк внутри функций.
+ * То есть
+ *
+ * function fun() {
+ * // var num = ...
+ * }
+ *
+ * Должно превратиться, например, в
+ *
+ * function fun() {
+ *     var num = 0;
+ * }
+ *
+ * (вместо 0 может быть prompt и вообще что угодно корректное.
  * Читайте подсказки и переходите по ссылкам.
  * Пожалуйста, протестируйте то, что получилось.
+ * И не стесняйтесь писать на почту, если у вас что-то не получается.
  */
 
 /**
@@ -13,8 +27,8 @@
  * Не забудьте, что prompt принимает 2 аргумента: подсказку для пользователя и пример ввода.
  */
 function readAndWrite() {
-    var input = prompt(...);
-    alert(...);
+    // var input = prompt(...);
+    // alert(...);
 }
 
 /**
@@ -23,8 +37,8 @@ function readAndWrite() {
  * Не забудьте, что prompt возвращает не число, а строчку, а вам нужно именно число.
  */
 function multiplyBy13() {
-    var input = prompt(...);
-    alert(...);
+    // var input = prompt(...);
+    // alert(...);
 }
 
 /**
@@ -32,8 +46,8 @@ function multiplyBy13() {
  * Пользователь снова должен ввести число, а вы выводите его в квадрате.
  */
 function square() {
-    var number = ...;
-    alert(...);
+    // var number = ...;
+    // alert(...);
 }
 
 /**
@@ -41,10 +55,10 @@ function square() {
  * Попросите пользователя ввести число, большее 100. Если он это сделал, то напишите, что он молодец.
  */
 function bigNumber() {
-    var number = ...;
-    if (...) {
-        ...
-    }
+    // var number = ...;
+    // if (...) {
+    //     ...
+    // }
 }
 
 /**
@@ -52,12 +66,12 @@ function bigNumber() {
  * То же самое, что и раньше, но если пользователь не справился, то поругайте.
  */
 function bigOrSmallNumber() {
-    var number = ...
-    if (...) {
-        ...
-    } else {
-        ...
-    }
+    // var number = ...
+    // if (...) {
+    //     ...
+    // } else {
+    //     ...
+    // }
 }
 
 /**
@@ -73,14 +87,14 @@ function bigOrSmallNumber() {
  * https://www.w3schools.com/jsref/jsref_isnan.asp
  */
 function bigNumberAndStringHandling() {
-    var number = ...
-    if (...) {
-        ...
-    } else if (...) {
-        ...
-    } else {
-        ...
-    }
+    // var number = ...
+    // if (...) {
+    //     ...
+    // } else if (...) {
+    //     ...
+    // } else {
+    //     ...
+    // }
 }
 
 /**
@@ -89,11 +103,11 @@ function bigNumberAndStringHandling() {
  * while, который повторяется, пока пользователь не введет число (смотрите про NaN в предыдущем задании).
  */
 function bigNumberAndWhile() {
-    var number = ...
-    while(...) {
-        number = ...
-    }
-    ...
+    // var number = ...
+    // while(...) {
+    //     number = ...
+    // }
+    // ...
 }
 
 /**
@@ -106,8 +120,8 @@ function bigNumberAndWhile() {
  * https://www.w3schools.com/jsref/jsref_length_array.asp
  */
 function countWords() {
-    var text = ...
-    alert(...);
+    // var text = ...
+    // alert(...);
 }
 
 var numbers;
@@ -120,13 +134,13 @@ var numbers;
  * этом пользователю.
  */
 function enterNumbers() {
-    numbers = ...
-    for (var i = 0; ...; i++) {
-        numbers[i] = ...
-        if (...) {
-            ...
-        }
-    }
+    // numbers = ...
+    // for (var i = 0; ...; i++) {
+    //     numbers[i] = ...
+    //     if (...) {
+    //         ...
+    //     }
+    // }
 }
 
 /**
@@ -135,12 +149,12 @@ function enterNumbers() {
  * Пользователь вводит номер элемента, который хочет увидеть, вы выводите этот элемент.
  */
 function outputNumbers() {
-    alert(...);
+    // alert(...);
 }
 
 function outputNumberById() {
-    var i = ...
-    alert(...);
+    // var i = ...
+    // alert(...);
 }
 
 /**
@@ -151,19 +165,19 @@ function outputNumberById() {
  * задания 4.3!
  */
 function addToAllNumbers() {
-    var num = ...
-    for (...) {
-        ...
-    }
-    outputNumbers();
+    // var num = ...
+    // for (...) {
+    //     ...
+    // }
+    // outputNumbers();
 }
 
 function divideAllNumbers() {
-    var num = ...
-    for (...) {
-        ...
-    }
-    ...
+    // var num = ...
+    // for (...) {
+    //     ...
+    // }
+    // ...
 }
 
 /**
@@ -171,11 +185,11 @@ function divideAllNumbers() {
  * Посчитайте сумму чисел в массиве и выведите на экран.
  */
 function sumOfNumbers() {
-    var sum = 0;
-    for (...) {
-        sum += ...
-    }
-    alert(...);
+    // var sum = 0;
+    // for (...) {
+    //     sum += ...
+    // }
+    // alert(...);
 }
 
 /**
