@@ -108,7 +108,7 @@ body {
     padding: 8px 12px;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
 }
 
 img {
@@ -124,7 +124,7 @@ img {
 }
 
 .demo {
-    opacity: 0.1;
+    opacity: 0.6;
 }
 
 .active,
